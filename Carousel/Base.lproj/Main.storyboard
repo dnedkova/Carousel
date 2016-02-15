@@ -231,6 +231,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1280" height="568"/>
                     <connections>
+                        <outlet property="backUpButton" destination="UBg-fK-EEd" id="uws-cc-WWf"/>
                         <outlet property="pageControl" destination="mqC-rC-dJf" id="Y8v-Lg-AAS"/>
                         <outlet property="tutorialScrollView" destination="lKj-0P-aNB" id="C5U-Aj-kKT"/>
                     </connections>

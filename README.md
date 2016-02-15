@@ -30,6 +30,7 @@ CodePath project
 * [x] Settings
   * User can dismiss the settings screen.
   * User can log out
+  * [x] Confirm log out action sheet
 * [ ] Optional: Learn more about Carousel
 * [ ] Optional: Show the "Learn more about Carousel" button in the photo timeline.
 * [ ] Optional: Tap the X to dismiss the banner

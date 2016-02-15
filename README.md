@@ -19,8 +19,8 @@ CodePath project
   * Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 * [x] Tutorial Screens
   * User can page between the screens
-  * [ ] Optional: User can page between the screens with updated dots
-  * [ ] Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
+  * [x] Optional: User can page between the screens with updated dots
+  * [x] Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
 * [x] Image Timeline
   * Display a scrollable view of images.
   * User can tap on the conversations button to see the conversations screen (push).

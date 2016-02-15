@@ -319,7 +319,7 @@
                                         <rect key="frame" x="51" y="630" width="218" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="K9h-6t-tG7" kind="modal" id="eoC-sC-46N"/>
+                                            <action selector="didPressSignOutButton:" destination="M5m-I6-KMi" eventType="touchUpInside" id="MFp-va-Wus"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -339,6 +339,7 @@
                     <connections>
                         <outlet property="settingsImage" destination="nf7-fq-Jve" id="sdc-tA-dB5"/>
                         <outlet property="settingsScrollView" destination="EhT-IY-5u0" id="stm-Nr-uyD"/>
+                        <segue destination="K9h-6t-tG7" kind="modal" identifier="toSignInSegue" animates="NO" id="iIP-nW-WdQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCH-sL-vAk" userLabel="First Responder" sceneMemberID="firstResponder"/>

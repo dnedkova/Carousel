@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class IntroViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var introScrollVIew: UIScrollView!
     
@@ -19,11 +19,16 @@ class IntroViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         introScrollVIew.contentSize = introImage.image!.size
+        introScrollVIew.delegate = self
         
     }
+    func scrollViewDidScroll(scrollView: UIScrollView) {
     
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        var offset = Float(introScrollVIew.contentOffset.y)
         // Dispose of any resources that can be recreated.
     }
     

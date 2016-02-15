@@ -45,6 +45,8 @@ CodePath project
 Here's walkthrough demos of implemented user stories:
 
 <img src='/carousel.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 <img src='/intro.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 

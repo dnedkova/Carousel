@@ -16,6 +16,7 @@
 		CA56221C1C719DE0001ACEA1 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA56221B1C719DE0001ACEA1 /* CreateAccountViewController.swift */; };
 		CA56221E1C71B1EE001ACEA1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA56221D1C71B1EE001ACEA1 /* TermsViewController.swift */; };
 		CA5622221C72A43F001ACEA1 /* AboutCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5622211C72A43F001ACEA1 /* AboutCarouselViewController.swift */; };
+		CA5622241C72ECDC001ACEA1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5622231C72ECDC001ACEA1 /* ImageViewController.swift */; };
 		CAD5EC7D1C6FF4780004B437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5EC7C1C6FF4780004B437 /* AppDelegate.swift */; };
 		CAD5EC7F1C6FF4780004B437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5EC7E1C6FF4780004B437 /* ViewController.swift */; };
 		CAD5EC821C6FF4780004B437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD5EC801C6FF4780004B437 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		CA56221B1C719DE0001ACEA1 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		CA56221D1C71B1EE001ACEA1 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		CA5622211C72A43F001ACEA1 /* AboutCarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCarouselViewController.swift; sourceTree = "<group>"; };
+		CA5622231C72ECDC001ACEA1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		CAD5EC791C6FF4780004B437 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD5EC7C1C6FF4780004B437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD5EC7E1C6FF4780004B437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				CAD5EC7C1C6FF4780004B437 /* AppDelegate.swift */,
 				CAD5EC7E1C6FF4780004B437 /* ViewController.swift */,
 				CAD5EC801C6FF4780004B437 /* Main.storyboard */,
+				CA5622231C72ECDC001ACEA1 /* ImageViewController.swift */,
 				CA5622211C72A43F001ACEA1 /* AboutCarouselViewController.swift */,
 				CA56221D1C71B1EE001ACEA1 /* TermsViewController.swift */,
 				CA56221B1C719DE0001ACEA1 /* CreateAccountViewController.swift */,
@@ -171,6 +174,7 @@
 				CA5622101C7000C8001ACEA1 /* SignInViewController.swift in Sources */,
 				CA5622161C71556D001ACEA1 /* ImageTimelineViewController.swift in Sources */,
 				CAD5EC8F1C6FF6560004B437 /* IntroViewController.swift in Sources */,
+				CA5622241C72ECDC001ACEA1 /* ImageViewController.swift in Sources */,
 				CA5622181C715781001ACEA1 /* ConversationsViewController.swift in Sources */,
 				CAD5EC7F1C6FF4780004B437 /* ViewController.swift in Sources */,
 				CA5622121C7051E3001ACEA1 /* Common.swift in Sources */,

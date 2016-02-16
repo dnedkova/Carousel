@@ -15,6 +15,13 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var buttonParentView: UIView!
     
+    @IBOutlet weak var firstName: UITextField!
+    
+    @IBOutlet weak var lastName: UITextField!
+    
+    @IBOutlet weak var email: UITextField!
+    
+    @IBOutlet weak var password: UITextField!
     var buttonInitialY: CGFloat!
     var buttonOffset: CGFloat!
     
@@ -27,13 +34,13 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
         createScrollView.delegate = self
         
         createScrollView.contentSize = createScrollView.frame.size
-        createScrollView.contentInset.bottom = 115
+        createScrollView.contentInset.bottom = 120
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
         
         buttonInitialY = buttonParentView.frame.origin.y
-        buttonOffset = -110
+        buttonOffset = -103
     }
     
     @IBAction func onTapBackButton(sender: AnyObject) {
@@ -55,6 +62,24 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
         checkBoxButton.selected = !checkBoxButton.selected
     }
     
+    @IBAction func onTapCreateButton(sender: AnyObject) {
+        
+        if firstName.text!.isEmpty || lastName.text!.isEmpty || email.text!.isEmpty || password.text!.isEmpty {
+            let AlertController = UIAlertController(title: "Information Required", message: "Please provide required information", preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
+            AlertController.addAction(cancelAction)
+            
+            self.presentViewController(AlertController, animated: true, completion: nil)
+        } else if checkBoxButton.selected == false {
+            let AlertController = UIAlertController(title: "", message: "Please agree with Terms of Service", preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "OK", style: .Cancel, handler: nil)
+            AlertController.addAction(cancelAction)
+            
+            self.presentViewController(AlertController, animated: true, completion: nil)
+            
+        }
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

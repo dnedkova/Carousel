@@ -22,6 +22,8 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var email: UITextField!
     
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     var buttonInitialY: CGFloat!
     var buttonOffset: CGFloat!
     
@@ -77,6 +79,15 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
             
             self.presentViewController(AlertController, animated: true, completion: nil)
             
+        } else {
+            activityIndicator.startAnimating()
+            
+            delay(2, closure: { () -> () in
+                
+                self.activityIndicator.stopAnimating()
+
+                self.performSegueWithIdentifier("tutorialSegue", sender: nil)
+                })
         }
         
     }

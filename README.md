@@ -30,6 +30,7 @@ CodePath project
 * [x] Settings
   * User can dismiss the settings screen.
   * User can log out
+  * [x] Confirm log out action sheet
 * [ ] Optional: Learn more about Carousel
 * [ ] Optional: Show the "Learn more about Carousel" button in the photo timeline.
 * [ ] Optional: Tap the X to dismiss the banner
@@ -45,9 +46,6 @@ CodePath project
 Here's walkthrough demos of implemented user stories:
 
 <img src='/carousel.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-
-<img src='/intro.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).

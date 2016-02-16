@@ -43,6 +43,7 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
         
         buttonInitialY = buttonParentView.frame.origin.y
         buttonOffset = -103
+        
     }
     
     @IBAction func onTapBackButton(sender: AnyObject) {
@@ -57,6 +58,7 @@ class CreateAccountViewController: UIViewController, UIScrollViewDelegate {
     
     func keyboardWillHide(notification: NSNotification) {
         buttonParentView.frame.origin.y = buttonInitialY
+        createScrollView.contentOffset.y = 0
         
     }
     
